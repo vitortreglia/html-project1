@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+body{
+    background-color: #e7ecee;
+}
+
+header{
+    background: #c0c6c9;
+    height: 140px;
+    width: 100%;
+    display: flex;
+}
+
+#logo{
+    height: 80px;
+    margin: 30px;
+}
+
+#titulo{
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #377e88;
+    align-content: center;
+}
+
+#menu{
+    height: 40px;
+    background: #377e88;
+    color: white;
+    align-content: center;
+    padding-left: 120px;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+section{
+    max-width: 100%;
+    background-image: url('../img/imagem1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#banner{
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #377e88;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+#banner h2{
+    margin: 20px;
+}
+
+#banner-title{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: inherit;
+    align-items: end;
+}
+
+article{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+
+}
+
+footer{
+    background: #377e88;
+    width: 100%;
+    color: white;
+    padding: 40px 0px;
+}
+
+#footer-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+footer h2{
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 60px;
+
+}
+
+#sobre{
+    margin-top: 30px;
+    padding: 30px 60px;
+    width: 80%;
+}
+
+table{
+    border: 1px solid #377e88;
+    width: 100%;
+}
+
+th{
+    background: #377e88;
+    color: white;
+}
+
+td{
+    color: #377e88;
+    font-weight: 700;
+}
+
+th, td{
+    padding: 10px 5px;
+
+    text-align: center;
+    border: 1px solid #377e88;
+}
+
+h3{
+    color: #377e88;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+#contato{
+    display: flex;
+    width: 100%;
+}
+
+#contato-1{
+    width: 50%;
+}
+
+#contato-2{
+    width: 50%;
+}
+
